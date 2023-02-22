@@ -1,0 +1,129 @@
+body {
+    height:1800px;
+    padding-top: 93px;
+}
+/* base classes */
+.d-inline-block {
+    display: inline-block;
+}
+.container {
+    width: 1170px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+/* .section1 {
+    margin-top: 93px;
+} */
+/* header styles */
+.header-wraper {
+    padding: 30px;
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.logo {
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.navigation {
+    vertical-align: middle;
+}
+.nav-li {
+    margin-right: 20px;
+}
+
+/* section#2 */
+.left-block,
+.right-block {
+    width: 570px;
+    background-color: #F2F2F2;
+    padding: 15px;
+}
+
+.text-block {
+    width: 355px;
+    vertical-align: middle;
+}
+.image-block {
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+/* relative & absolute example */
+.wraper-box {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    position: relative;
+    z-index: 8;
+}
+.child-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top:150px;
+    left: 200px;
+}
+.child-box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+.test {
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+
+/* image example */
+.text-image {
+    position: absolute;
+    top: 50px;
+    right:50px;
+    color: red;
+    /* width: 100%; */
+}
+.image-wraper {
+    position: relative;
+    width: 546px;
+    /* display: inline-block; */
+}
+
+
+/* chat icon example */
+.icon {
+    height: 80px;
+}
+.chat-icon {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+}
+
+
+/* cenetr example */
+.wraper-test {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    position: relative;
+}
+.box-center {
+    width: 150px;
+    height: 150px;
+    background-color:teal;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
